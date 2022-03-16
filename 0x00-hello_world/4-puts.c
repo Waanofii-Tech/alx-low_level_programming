@@ -1,6 +1,13 @@
 #include <stdio.h>
+
 int main(void){
-	char str1[] = "Programming is like building a multilingual puzzle";
+
+	/* this is entry point
+	 * for the program
+	 */
+	char str1[] = "\"Programming is like building a multilingual puzzle";
+
 	puts(str1);
-	return 0;
+
+	return (0);
 }
