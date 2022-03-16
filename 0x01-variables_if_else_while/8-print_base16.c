@@ -1,21 +1,21 @@
-nclude <stdio.h>
-#include <time.h>
-#include <stdlib.h>
+#include <stdio.h>
+
 /**
- * main - main block
- * Return: 0 on success
+ * main - Entry point
+ * Return:0 on success
  */
 int main(void)
 {
-	char c = 'z';
-
-	while (c >= 'a')
+	int i, y;
+	for (i = 0; i < 10; i++)
 	{
-		putchar(c);
-		c--;
+		putchar (i + '0');
+	}
+	for (y = 'a'; y <= 'f'; y++)
+	{
+		putchar (y);
 	}
 
 	putchar('\n');
 	return (0);
 }
-
