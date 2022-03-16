@@ -1,13 +1,12 @@
 #include <stdio.h>
 
+/*
+ * main - entry point
+ * program starts from this function
+ */
+
 int main(void)
 {
-	/*
-	 *main - Entry point 
-	 * this is entry point
-	 * for the program
-	 */
-
 	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
