@@ -2,6 +2,7 @@
 /**
  * print_last_digit - function that prints the last digit
  * Return: returns output
+ * @n: takes in an integer
  */
 int print_last_digit(int n)
 {
