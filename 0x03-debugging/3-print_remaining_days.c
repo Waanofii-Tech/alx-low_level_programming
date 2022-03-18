@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * print_remaining_days - takes a date and prints how many days are 
- * left in the year using calculation, taking leap years into account while doing so
- * @month: month using number format
- * @day: day of month variable
- * @year: year variable
+ * print_remaining_days - takes a date and prints how many days are
+ * left in the year, taking leap years into account
+ * @month: month in number format
+ * @day: day of month
+ * @year: year
  * Return: void
  */
 
