@@ -6,7 +6,7 @@
  * @b: the second integer
  * @c: the third integer
  * Return: largest number among them
- * */
+ */
 
 int largest_number(int a, int b, int c)
 {
